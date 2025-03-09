@@ -6,8 +6,5 @@
   ],
   "scripts": {
     "clean-install": "rm -rf **node_modules ** rm -rf bun.lockb && bun install"
-  },
-  "devDependencies": {
-    "eslint-config-vue": "workspaces:*"
   }
 }

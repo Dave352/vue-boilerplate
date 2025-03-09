@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react",
+  "name": "eslint-config-vue",
   "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
@@ -7,10 +7,14 @@
     "index.js"
   ],
   "devDependencies": {
-    "@vue/eslint-config-prettier": "^10.2.0",
-    "@vue/tsconfig": "^0.7.0",
-    "eslint": "^9.22.0",
-    "eslint-plugin-vue": "^10.0.0",
-    "typescript-eslint": "^8.26.0"
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "eslint-plugin-vue": "9.32.0",
+    "typescript-eslint": "^8.19.0",
+    "prettier": "^3.4.2"
   }
 }
